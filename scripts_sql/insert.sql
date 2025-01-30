@@ -1,3 +1,12 @@
+---Ordem correta de inserção
+--Pessoa → Porque Aluno e Professor dependem dela.
+--Aluno e Professor → Dependem da Pessoa.
+--Equipamento, Exercício → Não dependem de ninguém.
+--PlanoTreino → Depende do Aluno.
+--ContatoPessoa → Depende da Pessoa.
+--Compõem e Utiliza → Dependem de PlanoTreino, Exercício e Equipamento.
+
+
 INSERT INTO Pessoa (CPF, Nome, Data_nasc, Rua, Numero, Bairro, CEP) VALUES
 ('12345678901', 'João Silva', '1990-05-12', 'Rua A', 100, 'Centro', '12345000'),
 ('23456789012', 'Maria Oliveira', '1985-03-22', 'Rua B', 200, 'Jardins', '12345001'),
